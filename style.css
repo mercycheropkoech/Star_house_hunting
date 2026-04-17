@@ -1,0 +1,115 @@
+
+/*indexhtml page*/
+.navbar ul{
+    list-style-type: none;
+    background-color: rgb(90, 3, 16);
+    padding: 0px;
+    margin: 14px;
+    overflow: hidden;
+    justify-content: space-around;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+    padding: 14px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: lightcoral;
+    color: white;
+}
+.navbar li{
+    float: left;
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #360505;
+}
+
+
+/*Home page*/
+/* HERO */
+.hero {
+  height: 90vh;
+  background: url('pictures/Hero.jpeg') no-repeat center/cover;
+  position: relative;
+  color: white;
+}
+
+.overlay {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+}
+
+.overlay h1 {
+  font-size: 40px;
+}
+
+.overlay p {
+  font-size: 18px;
+}
+
+/* SEARCH BOX */
+.search-box {
+  position: absolute;
+  bottom: -30px;
+  left: 10%;
+  background: white;
+  padding: 15px;
+  border-radius: 20px;
+  display: flex;
+  gap: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.search-box input,
+.search-box select {
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+}
+
+.search-box button {
+  background: crimson;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* MOST VIEWED */
+.most-viewed {
+  padding: 80px 10%;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  width: 30%;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+
+.card img {
+  width: 100%;
+}
+
+.card h3, .card p {
+  padding: 10px;
+}
