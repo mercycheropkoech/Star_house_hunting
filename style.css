@@ -47,7 +47,7 @@ body {
 }
 
 .hero-content {
-    background: rgba(0,0,0,0.5);
+    background: rgba(56, 2, 2, 0.466);
     padding: 20px;
     border-radius: 10px;
 }
@@ -67,7 +67,7 @@ body {
 
 /* CARDS */
 .feature-card {
-    background: white;
+    background: rgb(48, 1, 1);
     padding: 20px;
     width: 250px;
     border-radius: 15px;
@@ -163,4 +163,128 @@ body {
 
 .card h3, .card p {
   padding: 10px;
+}
+
+
+/*login page*/
+/* AUTH PAGE BACKGROUND */
+.auth-body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, maroon, red);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* BACK BUTTON */
+.back-btn {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* CONTAINER */
+.auth-container {
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  width: 320px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+/* TOGGLE */
+.toggle-box {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.toggle-box button {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  background: #eee;
+}
+
+.toggle-box .active {
+  background: maroon;
+  color: white;
+}
+
+/* FORM */
+.form {
+  display: none;
+}
+
+.form.active {
+  display: block;
+}
+
+.form input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+/* BUTTON */
+.main-btn {
+  width: 100%;
+  padding: 10px;
+  background: maroon;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.main-btn:hover {
+  background: rgb(51, 4, 4);
+}
+
+
+/* CONTACT US PAGE */
+/* CONTACT */
+.contact-container {
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-container input,
+.contact-container textarea {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+.contact-container button {
+  background: maroon;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.book-btn {
+  text-align: center;
+  background: red;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+/* MAP */
+.map {
+  margin: 20px;
 }
