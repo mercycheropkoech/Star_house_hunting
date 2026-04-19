@@ -6,6 +6,16 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <h2 class="logo">Star Homes</h2>
+        <ul>
+            <li><a href="index.html">About</a></li>
+            <li><a href="home.html">Listings</a></li>
+            <li><a href="contact us.html">Contact</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+    </nav>
 
   <!-- HERO SECTION -->
   <section class="hero">
@@ -15,17 +25,22 @@
     </div>
 
     <!-- SEARCH BOX -->
-    <div class="search-box">
-      <input type="text" placeholder="Location">
-      <select>
-        <option>Studio apartment</option>
-        <option>One Bedroom</option>
-        <option>Three Bedroom</option>
-      </select>
-      <input type="text" placeholder="Price">
-      <button>Search</button>
-    </div>
+  <div class="search-box">
+  <input type="text" id="search-location" placeholder="Location">
+
+  <select id="search-type">
+    <option value="">All Types</option>
+    <option value="Studio">Studio apartment</option>
+    <option value="One Bedroom">One Bedroom</option>
+    <option value="Two Bedroom">Two Bedroom</option>
+  </select>
+
+  <input type="number" id="search-price" placeholder="Max Price">
+
+  <button onclick="searchHouses()" class="search-btn">Search</button>
+</div>
   </section>
+  <div class="cards" id="house-list"></div>
 
   <!-- MOST VIEWED -->
   <section class="most-viewed">
@@ -51,6 +66,10 @@
       </div>
     </div>
   </section>
+  <section class="sponsored">
+  <h2>Sponsored Listings</h2>
+  <div class="cards" id="sponsored-list"></div>
+</section>
 <script src="script.js"></script>
 </body>
 </html>

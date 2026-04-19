@@ -10,7 +10,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #222;
+    background: #300303;
     padding: 15px 40px;
 }
 
@@ -67,11 +67,11 @@ body {
 
 /* CARDS */
 .feature-card {
-    background: rgb(48, 1, 1);
+    background: rgb(177, 68, 68);
     padding: 20px;
     width: 250px;
     border-radius: 15px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    box-shadow: 0 5px 15px rgba(128, 2, 2, 0.1);
     transition: 0.3s;
 }
 
@@ -82,7 +82,7 @@ body {
 
 /* TEAM SECTION */
 .team {
-    background: #200101;
+    background: #6d0404;
     padding: 40px;
     text-align: center;
 }
@@ -370,4 +370,45 @@ body {
 
 .booking-card button:hover {
   background: red;
+}
+
+
+/* search box */
+.search-btn {
+  background: maroon;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* 🔥 HOVER EFFECT */
+.search-btn:hover {
+  background: red;
+  transform: scale(1.05);
+}
+
+
+/* sponsored section */
+.sponsored {
+  padding: 40px;
+  background: #fff5f5; /* light red background */
+}
+
+.sponsored h2 {
+  text-align: center;
+  color: maroon;
+  margin-bottom: 20px;
+}
+
+.sponsored-tag {
+  display: inline-block;
+  margin-top: 8px;
+  padding: 4px 8px;
+  background: red;
+  color: white;
+  font-size: 12px;
+  border-radius: 5px;
 }

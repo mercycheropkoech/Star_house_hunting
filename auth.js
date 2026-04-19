@@ -21,5 +21,5 @@ document.getElementById("loginForm").addEventListener("submit", function(e) {
 
 document.getElementById("signupForm").addEventListener("submit", function(e) {
   e.preventDefault();
-  alert("Account created! (Demo only)");
+  alert("Account created!(Demo only)");
 });
