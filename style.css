@@ -452,3 +452,58 @@ body {
   margin: 0 10px 15px;
   color: #555;
 }
+
+/*footer */
+.footer {
+  background-color: maroon;
+  color: beige;
+  text-align: center;
+  padding: 25px 15px;
+  margin-top: 40px;
+}
+
+.footer h3 {
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+
+.footer-info p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.footer p {
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+.footer {
+  background: linear-gradient(to right, maroon, #5a0f0f);
+}
+
+.footer {
+  background-color: maroon;
+  color: beige;
+  text-align: center;
+  padding: 25px 15px;
+  margin-top: 40px;
+}
+
+.footer h3 {
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+
+.footer-info p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.footer p {
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+.footer {
+  background: linear-gradient(to right, maroon, #5a0f0f);
+}
