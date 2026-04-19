@@ -60,21 +60,11 @@ function searchHouses() {
   const type = document.getElementById("search-type").value;
   const price = document.getElementById("search-price").value;
 
-  const filtered = houses.filter(house => {
-    return (
-      (location === "" || house.location.toLowerCase().includes(location)) &&
-      (type === "" || house.type === type) &&
-      (price === "" || house.price <= price)
-    );
-  });
+  const filtered = filterHouses(houses, location, type, price);
 
   displayHouses(filtered);
 }
 
-// Load all houses initially
-window.onload = () => {
-  displayHouses(houses);
-};
 
 //Sponsored Listings 
 async function loadSponsored() {
@@ -113,8 +103,23 @@ function displaySponsored(products) {
   });
 }
 
+if (typeof window !== "undefined") {
+  window.onload = () => {
+    displayHouses(houses);
+    loadSponsored();
+  };
+}
 
-window.onload = () => {
-  displayHouses(houses); // your houses
-  loadSponsored();       // API products
-};
+function filterHouses(houses, location, type, price) {
+  return houses.filter(house => {
+    return (
+      (location === "" || house.location.toLowerCase().includes(location)) &&
+      (type === "" || house.type === type) &&
+      (price === "" || house.price <= price)
+    );
+  });
+}
+
+if (typeof module !== "undefined") {
+  module.exports = { filterHouses };
+}

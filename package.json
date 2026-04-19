@@ -1,0 +1,11 @@
+{
+  "name": "star-house-hunting",
+  "version": "1.0.0",
+  "description": "House hunting website",
+  "main": "script.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Mercy",
+  "license": "ISC"
+}
