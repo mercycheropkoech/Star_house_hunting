@@ -1,3 +1,5 @@
+##project title
+
 ##Star House Hunting
 
 -Star House Hunting is a web-based platform designed to help users easily search, view, and explore available houses for rent or sale. The system provides a simple and user-friendly interface where users can browse property listings, view details, and connect with property owners or agents.
@@ -11,7 +13,7 @@
 -Admin panel for managing listings (if implemented)
 ##Technologies Used
 ##Frontend:
--HTML5
+-HTML
 -CSS
 -JavaScript
 ##Development Environment:
