@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Book Appointment</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="booking-body">
+
+  <!-- NAV -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="index.html">About</a></li>
+      <li><a href="home.html">Listings</a></li>
+      <li><a href="contact us.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- MAIN CONTAINER -->
+  <div class="booking-wrapper">
+
+    <!-- LEFT SIDE (TEXT) -->
+    <div class="booking-info">
+      <h1>Book a Site Visit</h1>
+      <p>Schedule a convenient time to visit your dream home. Our agents are ready to guide you through every step.</p>
+    </div>
+
+    <!-- RIGHT SIDE (FORM) -->
+    <div class="booking-card">
+      <form id="bookingForm">
+        <h2>Make an Appointment</h2>
+
+        <input type="text" placeholder="Full Name" required>
+        <input type="email" placeholder="Email Address" required>
+
+        <div class="input-row">
+          <input type="date" required>
+          <input type="time" required>
+        </div>
+
+        <textarea placeholder="Any special request (optional)"></textarea>
+
+        <button type="submit">Book Now</button>
+      </form>
+    </div>
+
+  </div>
+
+  <script src="booking.js"></script>
+</body>
+</html>

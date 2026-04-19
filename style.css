@@ -288,3 +288,86 @@ body {
 .map {
   margin: 20px;
 }
+
+/* BOOKING */
+/* BACKGROUND */
+.booking-body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, maroon, red);
+  color: white;
+}
+
+/* WRAPPER */
+.booking-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 90vh;
+  padding: 20px;
+}
+
+/* LEFT TEXT */
+.booking-info {
+  max-width: 400px;
+}
+
+.booking-info h1 {
+  font-size: 40px;
+}
+
+.booking-info p {
+  font-size: 16px;
+}
+
+/* FORM CARD */
+.booking-card {
+  background: white;
+  color: black;
+  padding: 30px;
+  border-radius: 20px;
+  width: 350px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+  transition: 0.3s;
+}
+
+/* HOVER EFFECT */
+.booking-card:hover {
+  transform: scale(1.03);
+}
+
+/* FORM */
+.booking-card h2 {
+  text-align: center;
+}
+
+.booking-card input,
+.booking-card textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+/* ROW (DATE + TIME) */
+.input-row {
+  display: flex;
+  gap: 10px;
+}
+
+/* BUTTON */
+.booking-card button {
+  width: 100%;
+  padding: 12px;
+  background: maroon;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.booking-card button:hover {
+  background: red;
+}
